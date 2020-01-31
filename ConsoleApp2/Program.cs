@@ -12,7 +12,7 @@ namespace ConsoleApp2
         public static void Main(string[] args) 
         {
             genre();
-
+            Seconed();
 
             int people = 10;
             string weather = "nice";
@@ -40,10 +40,17 @@ namespace ConsoleApp2
 
             Console.WriteLine(message);
         }
-        static void genre() 
+        static void genre()
         {
+            Console.WriteLine("Enter Genre");
+
             string genre = Console.ReadLine();
-            Console.WriteLine("Enter genre ");
+
+
+
+
+            Console.ReadLine();
+
             switch (genre)
             {
                 case "Drama":
@@ -52,22 +59,57 @@ namespace ConsoleApp2
                 case "Comedy":
                     Console.WriteLine("Duck Soup");
                     break;
+
                 case "Adventure":
-                    Console.WriteLine("King Kong");
-                    break;
+                        Console.WriteLine("Monvie hit");
+                        Console.WriteLine("King Kong");
+                        break;
+                    
                 case "Horror":
                     Console.WriteLine("Psycho");
                     break;
                 case "Science Fiction":
                     Console.WriteLine("2001: A Space Odyssey");
                     break;
+                case "adventure":
+                    Console.WriteLine("Monvie hit");
+                    Console.WriteLine("King Kong");
+                    break;
                 default:
                     Console.WriteLine("No movie found");
                     break;
             }
-            Console.ReadLine();
+            Proing proing;
+            proing.Name = "leg";
+            proing.Oid = Guid.NewGuid();
+            proing.leg = Convert.ToInt16(2).ToString();
+            Console.WriteLine(proing.Oid+" "+proing.Name+" "+proing.leg);
+            Console.WriteLine();
+             
 
+           
+            return ;
+        
         }
-     
+        static void Seconed()
+        {
+            string myvalue = "myname";
+            string myvalueanother = "hello";
+
+            int number1 = 20;
+            int number2 = 5;
+            Console.WriteLine(myvalue+myvalueanother);
+            myvalueanother = "test";
+            Console.WriteLine(myvalueanother);
+            Console.WriteLine(number1-number2+number1/number1);
+            Console.ReadLine();
+        }
+        struct Proing
+        {
+            public Guid Oid ;
+            public string Name;
+            public string leg;
+        }
     }
+
 }
