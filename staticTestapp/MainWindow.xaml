@@ -1,0 +1,17 @@
+﻿<Window x:Class="staticTestapp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:staticTestapp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,189">
+        <TextBox x:Name="Textboxprice" HorizontalAlignment="Left" Height="31" Margin="12,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="319"/>
+        <Button Content="คำนวณ" HorizontalAlignment="Left" Margin="450,96,0,0" VerticalAlignment="Top" Width="167" Height="54" Click="Button_Click"/>
+        <TextBox x:Name="TextboxVat" HorizontalAlignment="Left" Height="30" Margin="17,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
+        <Label Content="ราคาสินค้า (บาท)" HorizontalAlignment="Left" Margin="11,66,0,0" VerticalAlignment="Top"/>
+        <Label Content="ภาษี" HorizontalAlignment="Left" Margin="11,140,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

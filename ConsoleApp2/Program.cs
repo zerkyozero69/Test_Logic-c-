@@ -102,9 +102,10 @@ namespace ConsoleApp2
 
         static void Main(string[] args)
         {
-                //console.writeline("hello word");
-                //console.readline();
-                human2 man1 = new human2();
+            //console.writeline("hello word");
+            //console.readline();
+
+            human2 man1 = new human2();
                 man1.addage();
                 man1.setName("หูกระจัง");
                 man1.setLastname("ohoho  ");

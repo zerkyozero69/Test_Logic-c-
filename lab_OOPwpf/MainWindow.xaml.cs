@@ -35,24 +35,39 @@ namespace lab_OOPwpf
 
             Class1 hum2 = new Class1();
             hum2.ID = 2;
-            hum2.Name = "konthai";
-            hum2.Lastname = "1";
-            hum2.Postion = "ยาม";
+            hum2.Name = "konthai2";
+            hum2.Lastname = "รักตู่";
+            hum2.Postion = "ceo";
 
 
             Class1 hum3 = new Class1();
-            hum3.ID = 1;
-            hum3.Name = "konthai";
-            hum3.Lastname = "1";
-            hum3.Postion = "ยาม";
+            hum3.ID = 3;
+            hum3.Name = "konthai3";
+            hum3.Lastname = "11";
+            hum3.Postion = "รักป้อม";
                 
             List<Class1> list = new List<Class1>();
             list.Add(hum);
             list.Add(hum2);
-            list.Add(hum);
+            list.Add(hum3);
 
-           
-
+            foreach (Class1 obj in list)
+            {
+                try
+                {
+                    if (obj.ID == int.Parse(employeeTextBox.Text))
+                    {
+                        MessageBox.Show("id:  " + obj.ID + " Name: " + obj.Name + " Lastname " + obj.Lastname + "    Positon: " + obj.Postion + "  ");
+                        break;  
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+               
+            }
+            MessageBox.Show($"ไม่เจอหมายเลข");
         }
     }
 }
