@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async", "async\async.csproj", "{185DC963-5AF8-4BF9-A4A2-7CCA7B2ED810}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helloworld", "Hello world_json\Helloworld.csproj", "{08E46946-DBB6-4996-9B1B-F1AB986D8323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_OOPwpf", "lab_OOPwpf\lab_OOPwpf.csproj", "{AD8D0F1B-402D-468C-B952-1C9A427F522F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{185DC963-5AF8-4BF9-A4A2-7CCA7B2ED810}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{185DC963-5AF8-4BF9-A4A2-7CCA7B2ED810}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{185DC963-5AF8-4BF9-A4A2-7CCA7B2ED810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E46946-DBB6-4996-9B1B-F1AB986D8323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E46946-DBB6-4996-9B1B-F1AB986D8323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E46946-DBB6-4996-9B1B-F1AB986D8323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E46946-DBB6-4996-9B1B-F1AB986D8323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8D0F1B-402D-468C-B952-1C9A427F522F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8D0F1B-402D-468C-B952-1C9A427F522F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8D0F1B-402D-468C-B952-1C9A427F522F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8D0F1B-402D-468C-B952-1C9A427F522F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
