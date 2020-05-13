@@ -27,30 +27,18 @@ namespace lab_OOPwpf
         
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Class1  hum = new Class1();
-            hum.ID = 1;
-            hum.Name = "konthai";
-            hum.Lastname = "1";
-            hum.Postion ="ยาม" ;
+            Class1  hum = new Class1(1,"anawat","promsorn","programer");
+            
+            Class1 hum2 = new Class1(2, "ning", "promsorn", "programer2");
+            Class1 hum3 = new Class1(3, "aom", "promsorn", "programer3");
 
-            Class1 hum2 = new Class1();
-            hum2.ID = 2;
-            hum2.Name = "konthai2";
-            hum2.Lastname = "รักตู่";
-            hum2.Postion = "ceo";
-
-
-            Class1 hum3 = new Class1();
-            hum3.ID = 3;
-            hum3.Name = "konthai3";
-            hum3.Lastname = "11";
-            hum3.Postion = "รักป้อม";
+            Class1 hum4 = new Class1(4,"hello","hello");
                 
             List<Class1> list = new List<Class1>();
-            list.Add(hum);
+                list.Add(hum);
             list.Add(hum2);
             list.Add(hum3);
-
+            list.Add(hum4);
             foreach (Class1 obj in list)
             {
                 try
@@ -60,6 +48,7 @@ namespace lab_OOPwpf
                         MessageBox.Show("id:  " + obj.ID + " Name: " + obj.Name + " Lastname " + obj.Lastname + "    Positon: " + obj.Postion + "  ");
                         break;  
                     }
+                    
                 }
                 catch (Exception ex)
                 {
@@ -67,7 +56,7 @@ namespace lab_OOPwpf
                 }
                
             }
-            MessageBox.Show($"ไม่เจอหมายเลข");
+         
         }
     }
 }

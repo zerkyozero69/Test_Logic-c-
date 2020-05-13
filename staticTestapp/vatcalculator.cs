@@ -10,7 +10,7 @@ namespace staticTestapp
     {
         public static double TotalPrice( double price   ,double vat  )
         {
-            return ((price*vat )/100 )+price;
+            return ((price*vat )/100 )+price; 
         }
         public static double varCalculate(double price, double vat)
         {
